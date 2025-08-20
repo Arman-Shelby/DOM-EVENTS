@@ -27,9 +27,28 @@
 
     <button id="btn-make-purple">Make Purple</button>
 
+    <br>
+    
+
+    <!-- option four: addEventListener -->
+
+    <button id="btn-make-green">Make Green</button>
+    <br>
+    <br>
+    <button id="btn-make-gold">Make Gold</button>
 
     <script>
-        
+        //documen.getElemtbyId().addeventlistener('eventType', handlerFunction)
+        // document.getElementById('btn-make-green').addEventListener('click', function makegreen(){
+
+        // })
+        document.getElementById('btn-make-green').addEventListener('click',function makegreen(){
+            document.body.style.backgroundColor = 'green';
+        })
+
+        document.getElementById('btn-make-gold').addEventListener('click',function(){
+            document.body.style.backgroundColor = 'gold'
+        })  
         
     </script>
 
